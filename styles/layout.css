@@ -1,0 +1,91 @@
+/* *{
+    background-color: black;
+} */
+body{
+    background-color:white;
+    margin: 3px;
+}
+.btn{
+    padding: 10px;
+}
+.flag {
+    padding: 1% 0 0 5%;
+}
+.logo {
+    margin: 1% auto;
+    text-align: center;
+}
+.r{
+    text-align: right;
+}
+header{
+    padding: 5px;
+    
+    background-color: black;
+}
+.navbar-light .navbar-nav .nav-link{
+    background-color: goldenrod;
+    color: black;
+    font-weight: bold ;
+    direction: rtl;
+    
+}
+/* a.nav-link:hover{
+    color:red;
+} */
+/* .center{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom:100px;
+    color: white;
+    background-color: black;
+}
+.left{
+    margin-top: 50px;
+    margin-left:50px;
+    text-align: top;
+    background-color: black;
+} */
+.bg-dark{
+    background-color: goldenrod !important;
+    direction: rtl; 
+}
+
+/* body{
+    background-color: black;
+
+} */
+.right{
+    margin: 0 auto;
+    text-align: right;
+}
+.bold{
+    font-size: large;
+    font-weight: bold;
+    color: rgb(143, 105, 11);
+}
+.top{
+    background-color: black;
+}
+.center_bottom
+{
+    text-align: center;
+    color: rgb(143, 105, 11);
+}
+.abc{
+    margin: 1px;
+    width: 50px;
+}
+#sign{
+    
+    text-align: right;
+    color: rgb(143, 105, 11);
+}
+footer{
+    background-color: black;
+    bottom: 0;    
+    position: fixed;
+    width: 100%;
+    padding: 2% 1% 1% 1%;
+}
