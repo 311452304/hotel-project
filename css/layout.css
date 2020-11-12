@@ -14,13 +14,14 @@ body{
 .logo {
     margin: 1% auto;
     text-align: center;
+    
 }
 .r{
     text-align: right;
 }
 header{
     padding: 5px;
-    
+    /* height: 20%; */
     background-color: black;
 }
 .navbar-light .navbar-nav .nav-link{
@@ -60,6 +61,9 @@ header{
     margin: 0 auto;
     text-align: right;
 }
+.frame{
+    width: 100%;
+}
 .bold{
     font-size: large;
     font-weight: bold;
@@ -87,5 +91,6 @@ footer{
     bottom: 0;    
     position: fixed;
     width: 100%;
-    padding: 2% 1% 1% 1%;
+    /* height: 20%; */
+    padding: 1% 1% 1% 1%;
 }
