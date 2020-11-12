@@ -17,3 +17,11 @@
 .centertext{
     text-align: center;
 }
+header {
+    padding: 5px;
+    height: 30;
+    background-color: white;
+}
+.b{
+    font-weight: bold;
+}
