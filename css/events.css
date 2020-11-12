@@ -1,3 +1,19 @@
 *{
     background-color: white;
 }
+.no-gutters {
+    margin-right: 3%;
+    margin-left: 3%;
+}
+.right{
+    text-align: right;
+}
+.mb-3, .my-3 {
+    margin-top: 1rem;
+}
+.bold{
+    text-align: center;
+}
+.centertext{
+    text-align: center;
+}
