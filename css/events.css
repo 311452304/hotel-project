@@ -25,3 +25,12 @@ header {
 .b{
     font-weight: bold;
 }
+.fsize{
+    font-size: 20px;
+}
+.fs{
+    font-size: 48px;
+}
+.mbb{
+    margin-top: 5rem;
+}
