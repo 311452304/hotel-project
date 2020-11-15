@@ -1,11 +1,11 @@
 
 *{
     text-align: center; 
-    background-color: black; 
+    background-color:white ; 
 }
 body{
-    background-color: black;
-    margin-top:100px;
+    background-color: white;
+    margin-top:150px;
 }
 h1{
     color:gold;
@@ -14,12 +14,9 @@ h1{
 div{
     color: rgb(177, 154, 28);
 }
-span{
-    direction :ltr;
-    text-align:right;
-}
+
 .btn{
-    padding:20px;
+    padding:25px;
 }
 .btn-primary{
     color:black;
@@ -28,8 +25,11 @@ span{
 }
 .btn-block{
     width: 30%;
-    margin: 30px 450px
+    margin: 50px 615px;
 }
 .btn-warning:hover{
     background-color: gold important !;
+}
+input{
+    size:25px;
 }
