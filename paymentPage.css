@@ -1,0 +1,35 @@
+
+*{
+    text-align: center; 
+    background-color: black; 
+}
+body{
+    background-color: black;
+    margin-top:100px;
+}
+h1{
+    color:gold;
+    text-decoration:underline;
+}
+div{
+    color: rgb(177, 154, 28);
+}
+span{
+    direction :ltr;
+    text-align:right;
+}
+.btn{
+    padding:20px;
+}
+.btn-primary{
+    color:black;
+    background-color:gold;
+    border-color:black;
+}
+.btn-block{
+    width: 30%;
+    margin: 30px 450px
+}
+.btn-warning:hover{
+    background-color: gold important !;
+}
