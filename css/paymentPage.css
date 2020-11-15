@@ -23,13 +23,13 @@ div{
     background-color:gold;
     border-color:black;
 }
-.btn-block{
-    width: 30%;
-    margin: 50px 615px;
-}
 .btn-warning:hover{
     background-color: gold important !;
 }
 input{
     size:25px;
+}
+#btn_invite{
+    width: 50%;
+    text-align: center;
 }
