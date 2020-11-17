@@ -11,8 +11,10 @@
 .mb-3, .my-3 {
     margin-top: 1rem;
 }
-.bold{
+.title{
     text-align: center;
+    margin: 12;
+    color:  rgb(188,148,26);
 }
 .centertext{
     text-align: center;

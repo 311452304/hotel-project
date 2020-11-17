@@ -10,11 +10,13 @@ body{
 }
 .flag {
     padding: 1% 0 0 5%;
+    color: rgb(188,148,26);
+    font-size: 12px;
 }
+
 .logo {
     margin: 1% auto;
     text-align: center;
-    
 }
 .r{
     text-align: right;
@@ -27,13 +29,13 @@ header{
     top: 0;    
     width: 100%;
 }
-/* .navbar{
-    /* position: fixed;   
-    top:0px;  */
-/* } */ 
+/* .navbar{ */
+     /* position: fixed;   
+    top:0px;   */
+ }
 .navbar-light .navbar-nav .nav-link{
-    background-color: goldenrod;
-    color: black;
+     background-color: rgb(28,28,28);
+    color: rgb(188,148,26);
     font-weight: bold ;
     direction: rtl;
     
@@ -56,7 +58,8 @@ header{
     background-color: black;
 } */
 .bg-dark{
-    background-color: goldenrod !important;
+    /* background-color: goldenrod !important; */
+    background-color: rgb(28,28,28)!important;
     /* background-color: rgb(28,28,28)!important; */
     direction: rtl; 
 }
@@ -72,9 +75,9 @@ header{
 .frame{
     width: 100%;
 }
-.bold{
+.font{
     font-size: large;
-    color: rgb(143, 105, 11);
+    color:  rgb(188,148,26);
 }
 .top{
     background-color: black;
@@ -82,17 +85,17 @@ header{
 .center_bottom
 {
     text-align: center;
-    color: rgb(143, 105, 11);
+    color: rgb(188,148,26);
     font-size: 12px;
 }
 .abc{
     margin: 1px;
-    width: 50px;
+    width: 26px;
 }
 #sign{
     
     text-align: right;
-    color: rgb(143, 105, 11);
+    color: rgb(188,148,26);
 }
 footer{
     background-color: rgb(28,28,28);
