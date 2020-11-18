@@ -6,6 +6,8 @@
 body{
     background-color: white;
     margin-top:150px;
+    direction: rtl;
+    position: center;
 }
 h1{
     color:gold;
@@ -26,10 +28,13 @@ div{
 .btn-warning:hover{
     background-color: gold important !;
 }
-input{
-    size:25px;
-}
+
 #btn_invite{
     width: 50%;
     text-align: center;
+    margin-left: 20%;
+    margin-right: 30%;
+}
+ul{
+    list-style:none;
 }
