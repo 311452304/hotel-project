@@ -2,11 +2,17 @@
 *{
     text-align:center;
     background-color: white; 
-    margin-top:3%;
+    
     
 }
 
 h1{
     color:gold;
-    text-decoration:underline;
+    margin-top:5%;
+    margin-bottom: 3%;
+}
+p{
+    text-align:right;
+    margin-right:0%;
+
 }
