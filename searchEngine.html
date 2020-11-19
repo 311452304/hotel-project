@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Ralon</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/events.css">
+    <link rel="stylesheet" href="css/searchEngine.css">
+
+</head>
+
+<body style="direction: rtl;">
+    <main class="main mt-2">
+        <div class="container container-sm">
+            <form class="form-inline searchEngine">
+                <div>
+                    <label for="checkinDate">תאריך הגעה</label>
+                    <input id="checkinDate" type="date" class="form-control mb-2 mr-sm-2" placeholder="תאריך הגעה">
+                </div>
+                <div>
+                    <label for="checkoutDate">תאריך עזיבה</label>
+                    <input id="checkoutDate" type="date" class="form-control mb-2 mr-sm-2" placeholder="תאריך עזיבה">
+                </div>
+                <div class="dropdown mb-2 mr-sm-2">
+                    <label for="numOfPeople">מספר אנשים</label>
+                    <input id="numOfPeople" type="text" class="form-control  dropdown-toggle" data-toggle="dropdown"
+                        placeholder=" מבוגר 1">
+                    <div class="dropdown-menu">
+                        <div class="dropdown-item" href="#">מבוגרים<span>- 0 +</span></div>
+                        <div class="dropdown-item" href="#">ילדים<span>- 0 +</span></div>
+                        <div class="dropdown-item" href="#">תינוקות<span>- 0 +</span></div>
+                    </div>
+                </div>
+                <button id="serachBtn" type="submit" class="btn btn-outline-warning mb-2 mr-sm-2">חפש</button>
+            </form>
+            <div id="searchResults" aria-hidden="true">
+                <div class="card mb-3 mbb" ;>
+                    <div class="row no-gutters">
+                        <div class="col-md-6">
+                            <img src="images/BOY.jpg" class="card-img" alt="...">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-body">
+                                <h5 class="card-title right">חדר סטנדרט</h5>
+                                <p class="card-text right fsize">                חדרים מרוהטים בעיצוב עכשוי בגודל של כ 28 מ"ר, החדרים כוללים: חדר אמבטיה המתאפיין ברמת גימור גבוהה,
+                                    החדרים
+                                    מצוידים בספה נפתחת המתאימה להלנת שני ילדים, שולחן עבודה, שולחן קפה, מסך "LCD 32 הכולל טלוויזיה בכבלים,
+                                    כספת,
+                                    מיני בר ומייבש שיער. כל חדרי המשפחה הינם חדרים ללא עישון הפונים לנופה האורבאני של ירושלים</p>
+                                <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3 mbb" ;>
+                    <div class="row no-gutters">
+                        <div class="col-md-6">
+                            <img src="images/BOY.jpg" class="card-img" alt="...">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-body">
+                                <h5 class="card-title right">חדר סנטרנט+</h5>
+                                <p class="card-text right fsize">                חדרים מרוהטים בעיצוב עכשוי בגודל של כ 28 מ"ר, החדרים כוללים: חדר אמבטיה המתאפיין ברמת גימור גבוהה,
+                                    החדרים
+                                    מצוידים בספה נפתחת המתאימה להלנת שני ילדים, שולחן עבודה, שולחן קפה, מסך "LCD 32 הכולל טלוויזיה בכבלים,
+                                    כספת,
+                                    מיני בר ומייבש שיער. כל חדרי המשפחה הינם חדרים ללא עישון הפונים לנופה האורבאני של ירושלים</p>
+                                <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3 mbb" ;>
+                    <div class="row no-gutters">
+                        <div class="col-md-6">
+                            <img src="images/BOY.jpg" class="card-img" alt="...">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-body">
+                                <h5 class="card-title right">חדר פרימיום</h5>
+                                <p class="card-text right fsize">                חדרים מרוהטים בעיצוב עכשוי בגודל של כ 28 מ"ר, החדרים כוללים: חדר אמבטיה המתאפיין ברמת גימור גבוהה,
+                                    החדרים
+                                    מצוידים בספה נפתחת המתאימה להלנת שני ילדים, שולחן עבודה, שולחן קפה, מסך "LCD 32 הכולל טלוויזיה בכבלים,
+                                    כספת,
+                                    מיני בר ומייבש שיער. כל חדרי המשפחה הינם חדרים ללא עישון הפונים לנופה האורבאני של ירושלים</p>
+                                <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </main>
+</body>
+<script>
+    $('#serachBtn').on('click', function () {
+        $('#searchResults').attr('aria-hidden', 'false');
+        return false;
+    });
+</script>
+
+</html>
