@@ -1,6 +1,7 @@
-/* *{
-    background-color: black;
-} */
+ *{
+    /* background-color: black;*/
+    direction: rtl; 
+} 
 body{
     background-color:white;
     margin: 0 auto;
@@ -37,7 +38,7 @@ header{
      background-color: rgb(28,28,28);
     color: rgb(188,148,26);
     font-weight: bold ;
-    direction: rtl;
+    
     
 }
 /* a.nav-link:hover{
