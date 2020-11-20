@@ -17,7 +17,7 @@ body{
 
 .logo {
     margin: 1% auto;
-    text-align: center;
+    text-align: right;
 }
 .r{
     text-align: right;
@@ -30,10 +30,9 @@ header{
     top: 0;    
     width: 100%;
 }
-/* .navbar{ */
-     /* position: fixed;   
-    top:0px;   */
- /* } */
+ .navbar{ 
+     direction: rtl;
+  } 
 .navbar-light .navbar-nav .nav-link{
      background-color: rgb(28,28,28);
     color: rgb(188,148,26);
