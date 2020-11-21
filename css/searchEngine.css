@@ -1,0 +1,35 @@
+*[aria-hidden="true"] {
+    display: none;
+    ;
+}
+
+.searchEngine {
+    background-color: rgb(221, 219, 219);
+    padding: 3%;
+    border-radius: 25px;
+    justify-content: center;
+}
+
+#serachBtn {
+    align-self: flex-end;
+    border: solid;
+    font-weight: bold;
+    width: 150px;;
+}
+.mbb{
+    margin-top: 2rem;
+}
+
+@media screen and (max-width: 414px) {
+    .form-inline {
+        display: block;
+    }
+
+    #serachBtn {
+        width: 100%;
+    }
+
+    label {
+        float: right;
+    }
+}
