@@ -17,7 +17,7 @@
 }
 
 /* Next & previous buttons */
-.prev, .next {
+.myPrev, .myNext {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -33,13 +33,13 @@
 }
 
 /* Position the "next button" to the right */
-.next {
-  right: 0;
+.myNext {
+  right: 15px;
   border-radius: 3px 0 0 3px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
+.myPrev:hover, .myNext:hover {
   background-color: rgba(0,0,0,0.8);
 }
 
@@ -64,7 +64,7 @@
 }
 
 /* The dots/bullets/indicators */
-.dot {
+.myDot {
   cursor: pointer;
   height: 15px;
   width: 15px;
@@ -75,12 +75,12 @@
   transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
+.active, .myDot:hover {
   background-color: #717171;
 }
 
 /* Fading animation */
-.fade {
+.myFade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
   animation-name: fade;
