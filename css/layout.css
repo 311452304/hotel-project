@@ -1,7 +1,31 @@
- *{
-    /* background-color: black;*/
-    direction: rtl; 
-} 
+
+  .navbar-inverse {
+    background-color: rgb(28,28,28);
+    border-color: rgb(28,28,28);
+    margin-bottom: 0px;
+}
+  .navbar-inverse .navbar-nav>li>a,.navbar-inverse .navbar-nav>.active>a {
+      font-size: 16px;
+    color: rgb(188,148,26);
+    background-color: rgb(28,28,28);
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>li>a:focus, 
+.navbar-inverse .navbar-nav>li>a:hover {
+  text-decoration: underline;
+  color: rgb(188,148,26);
+}
+.navbar-inverse .navbar-toggle {
+    border-color: rgb(188,148,26);;
+}
+@media (min-width: 768px){
+  .navbar-nav {
+    float: right;
+}
+.nav.navbar-nav li {
+  float: right;
+  margin-right: 10px;
+}
+}
 body{
     background-color:white;
     margin: 0 auto;
@@ -13,11 +37,13 @@ body{
     padding: 1% 0 0 5%;
     color: rgb(188,148,26);
     font-size: 12px;
+    text-align: center;
 }
 
 .logo {
-    margin: 1% auto;
+    margin-left: 15px;
     text-align: right;
+    float: left;
 }
 .r{
     text-align: right;
@@ -26,54 +52,33 @@ header{
     /* padding: 5px; */
     /* height: 20%; */
     background-color: rgb(28,28,28);
-    position: fixed;
+    position: sticky;
     top: 0;    
     width: 100%;
 }
- .navbar{ 
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+}
+  .navbar{ 
      direction: rtl;
   } 
-.navbar-light .navbar-nav .nav-link{
-     background-color: rgb(28,28,28);
-    color: rgb(188,148,26);
-    font-weight: bold ;
-    
-    
-}
-/* a.nav-link:hover{
-    color:red;
-} */
-/* .center{
-    text-align: center;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding-bottom:100px;
-    color: white;
-    background-color: black;
-}
-.left{
-    margin-top: 50px;
-    margin-left:50px;
-    text-align: top;
-    background-color: black;
-} */
+
 .bg-dark{
     /* background-color: goldenrod !important; */
     background-color: rgb(28,28,28)!important;
     /* background-color: rgb(28,28,28)!important; */
     direction: rtl; 
 }
-
-/* body{
-    background-color: black;
-
-} */
 .right{
     margin: 0 auto;
     text-align: right;
 }
 .frame{
     width: 100%;
+    height: 100%;
 }
 .font{
     font-size: large;
@@ -82,9 +87,7 @@ header{
 .top{
     background-color: black;
 }
-.navbar-toggler {
-    background-color:rgb(188,148,26);
-}
+
 a{
     color: rgb(188,148,26);
 }
@@ -112,7 +115,7 @@ a:hover{
 footer{
     background-color: rgb(28,28,28);
     bottom: 0;    
-    position: fixed;
+    /* position: fixed; */
     width: 100%;
     /* height: 20%; */
     padding: 1% 1% 1% 1%;
@@ -124,4 +127,7 @@ footer{
 }
 p{
     margin-bottom: 0;
+}
+iframe{
+border-style: none;
 }

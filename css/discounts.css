@@ -1,0 +1,19 @@
+*{
+    direction: rtl;
+    text-align: right;
+}
+body{
+   background-color: #1c1c1c;
+}    
+ul{
+    list-style: none;
+}  
+.salesHeading{
+    color: #ae891a;
+} 
+.list-group-item{
+    margin-bottom: 10px;
+}
+.orderNow{
+    float: left;
+}

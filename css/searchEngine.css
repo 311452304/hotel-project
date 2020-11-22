@@ -1,8 +1,12 @@
-*[aria-hidden="true"] {
-    display: none;
-    ;
+*{
+    direction: rtl;
 }
-
+*[aria-hidden="true"] {
+    display: none;    
+}
+/* iframe{
+    border-style: none;
+} */
 .searchEngine {
     background-color: rgb(221, 219, 219);
     padding: 3%;
